@@ -1,49 +1,57 @@
 {
-  "lockfileVersion": 1,
-  "workspaces": {
-    "": {
-      "name": "iac-benchmarks",
-    },
-    "architect": {
-      "name": "@iac-benchmarks/architect",
-    },
-    "cdk": {
-      "name": "@iac-benchmarks/cdk",
-    },
-    "cdktf": {
-      "name": "@iac-benchmarks/cdktf",
-    },
-    "cloudformation": {
-      "name": "@iac-benchmarks/cloudformation",
-    },
-    "pulumi": {
-      "name": "@iac-benchmarks/pulumi",
-    },
-    "serverless": {
-      "name": "@iac-benchmarks/serverless",
-    },
-    "sst": {
-      "name": "@iac-benchmarks/sst",
-    },
-    "terraform": {
-      "name": "@iac-benchmarks/terraform",
-    },
-  },
-  "packages": {
-    "@iac-benchmarks/architect": ["@iac-benchmarks/architect@workspace:architect"],
+	"lockfileVersion": 1,
+	"workspaces": {
+		"": {
+			"name": "iac-comparisons"
+		},
+		"architect": {
+			"name": "@iac-comparisons/architect"
+		},
+		"cdk": {
+			"name": "@iac-comparisons/cdk"
+		},
+		"cdktf": {
+			"name": "@iac-comparisons/cdktf"
+		},
+		"cloudformation": {
+			"name": "@iac-comparisons/cloudformation"
+		},
+		"pulumi": {
+			"name": "@iac-comparisons/pulumi"
+		},
+		"serverless": {
+			"name": "@iac-comparisons/serverless"
+		},
+		"sst": {
+			"name": "@iac-comparisons/sst"
+		},
+		"terraform": {
+			"name": "@iac-comparisons/terraform"
+		}
+	},
+	"packages": {
+		"@iac-comparisons/architect": [
+			"@iac-comparisons/architect@workspace:architect"
+		],
 
-    "@iac-benchmarks/cdk": ["@iac-benchmarks/cdk@workspace:cdk"],
+		"@iac-comparisons/cdk": ["@iac-comparisons/cdk@workspace:cdk"],
 
-    "@iac-benchmarks/cdktf": ["@iac-benchmarks/cdktf@workspace:cdktf"],
+		"@iac-comparisons/cdktf": ["@iac-comparisons/cdktf@workspace:cdktf"],
 
-    "@iac-benchmarks/cloudformation": ["@iac-benchmarks/cloudformation@workspace:cloudformation"],
+		"@iac-comparisons/cloudformation": [
+			"@iac-comparisons/cloudformation@workspace:cloudformation"
+		],
 
-    "@iac-benchmarks/pulumi": ["@iac-benchmarks/pulumi@workspace:pulumi"],
+		"@iac-comparisons/pulumi": ["@iac-comparisons/pulumi@workspace:pulumi"],
 
-    "@iac-benchmarks/serverless": ["@iac-benchmarks/serverless@workspace:serverless"],
+		"@iac-comparisons/serverless": [
+			"@iac-comparisons/serverless@workspace:serverless"
+		],
 
-    "@iac-benchmarks/sst": ["@iac-benchmarks/sst@workspace:sst"],
+		"@iac-comparisons/sst": ["@iac-comparisons/sst@workspace:sst"],
 
-    "@iac-benchmarks/terraform": ["@iac-benchmarks/terraform@workspace:terraform"],
-  }
+		"@iac-comparisons/terraform": [
+			"@iac-comparisons/terraform@workspace:terraform"
+		]
+	}
 }

@@ -1,5 +1,5 @@
 {
-	"name": "iac-benchmarks",
+	"name": "iac-comparisons",
 	"module": "index.ts",
 	"type": "module",
 	"workspaces": [
