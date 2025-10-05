@@ -1,0 +1,17 @@
+name: iac-comparison
+
+services:
+  localstack:
+    image: localstack/localstack:4.9.0
+    network_mode: "host"
+    environment:
+      - LS_LOG=info
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - PERSISTENCE=0
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    deploy:
+      resources:
+        limits:
+          cpus: 0.50
+          memory: 1g
