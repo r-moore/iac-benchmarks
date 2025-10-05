@@ -1,3 +1,6 @@
 {
-	"name": "@iac-comparisons/cdk"
+	"name": "@iac-comparisons/cdk",
+	"scripts": {
+		"reset": "echo 'cleared deployment state'"
+	}
 }

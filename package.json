@@ -11,5 +11,9 @@
 		"serverless",
 		"sst",
 		"terraform"
-	]
+	],
+	"scripts": {
+		"up": "docker compose up --force-recreate --yes --detach",
+		"down": "docker compose down --volumes --remove-orphans && bun run --workspaces reset"
+	}
 }

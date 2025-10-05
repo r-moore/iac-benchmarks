@@ -1,3 +1,6 @@
 {
-	"name": "@iac-comparisons/sst"
+	"name": "@iac-comparisons/sst",
+	"scripts": {
+		"reset": "echo 'cleared deployment state'"
+	}
 }

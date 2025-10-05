@@ -1,3 +1,6 @@
 {
-	"name": "@iac-comparisons/cdktf"
+	"name": "@iac-comparisons/cdktf",
+	"scripts": {
+		"reset": "echo 'cleared deployment state'"
+	}
 }

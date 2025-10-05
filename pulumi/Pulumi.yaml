@@ -1,0 +1,6 @@
+name: iac-comparison
+main: index.ts
+runtime:
+  name: nodejs
+  options:
+    packagemanager: bun

@@ -1,3 +1,11 @@
 {
-	"name": "@iac-comparisons/pulumi"
+	"name": "@iac-comparisons/pulumi",
+	"scripts": {
+		"up": "./up.sh",
+		"reset": "./reset.sh"
+	},
+	"dependencies": {
+		"@pulumi/pulumi": "3.200.0",
+		"@pulumi/aws": "7.4.0"
+	}
 }

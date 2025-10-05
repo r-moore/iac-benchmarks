@@ -1,3 +1,6 @@
 {
-	"name": "@iac-comparisons/cloudformation"
+	"name": "@iac-comparisons/cloudformation",
+	"scripts": {
+		"reset": "echo 'cleared deployment state'"
+	}
 }
