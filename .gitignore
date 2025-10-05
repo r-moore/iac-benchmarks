@@ -1,0 +1,5 @@
+node_modules
+.env
+.env.*
+*.tsbuildinfo
+.DS_Store

@@ -1,0 +1,15 @@
+{
+	"name": "iac-benchmarks",
+	"module": "index.ts",
+	"type": "module",
+	"workspaces": [
+		"architect",
+		"cdk",
+		"cdktf",
+		"cloudformation",
+		"pulumi",
+		"serverless",
+		"sst",
+		"terraform"
+	]
+}
