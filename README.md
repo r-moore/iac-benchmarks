@@ -49,6 +49,14 @@ I will also compare:
 - Support for hot-reloading changes during development of Lambda functions
 - Licensing and costs
 
+
+## Pre-requisites
+
+- bun (for installing npm dependencies, invoking scripts, and injecting environment variables)
+- hyperfine (for benchmarking measurements)
+- docker (for running LocalStack container)
+- pulumi cli
+
 ## Known Issues
 
 There is a compatibility issue with the latest versions of terraform and LocalStack, affecting several of the tools in this repository when trying to deploy a DynamoDB table (see github issues [#13140](https://github.com/localstack/localstack/issues/13140) [#13155](https://github.com/localstack/localstack/issues/13155)). The workaround is to use an older version of the terraform provider.

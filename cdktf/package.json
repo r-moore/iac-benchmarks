@@ -1,5 +1,5 @@
 {
-	"name": "@iac-comparisons/cdktf",
+	"name": "cdktf",
 	"scripts": {
 		"reset": "echo 'cleared deployment state'"
 	}

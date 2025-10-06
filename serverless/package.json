@@ -1,5 +1,5 @@
 {
-	"name": "@iac-comparisons/serverless",
+	"name": "serverless",
 	"scripts": {
 		"reset": "echo 'cleared deployment state'"
 	}

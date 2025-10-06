@@ -1,0 +1,6 @@
+name: pulumi-classic-s3
+main: index.ts
+runtime:
+  name: nodejs
+  options:
+    packagemanager: bun

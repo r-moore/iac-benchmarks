@@ -1,5 +1,5 @@
 {
-	"name": "@iac-comparisons/terraform",
+	"name": "terraform",
 	"scripts": {
 		"reset": "echo 'cleared deployment state'"
 	}

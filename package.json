@@ -7,13 +7,14 @@
 		"cdk",
 		"cdktf",
 		"cloudformation",
-		"pulumi",
+		"pulumi/*",
 		"serverless",
 		"sst",
 		"terraform"
 	],
 	"scripts": {
 		"up": "docker compose up --force-recreate --yes --detach",
-		"down": "docker compose down --volumes --remove-orphans && bun run --workspaces reset"
+		"down": "docker compose down --volumes --remove-orphans && bun run --workspaces reset",
+		"benchmark": "sh benchmark.sh"
 	}
 }
