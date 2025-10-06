@@ -1,6 +1,0 @@
-name: pulumi-classic-local
-main: index.ts
-runtime:
-  name: nodejs
-  options:
-    packagemanager: bun

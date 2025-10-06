@@ -1,4 +1,4 @@
-name: iac-comparison
+name: pulumi
 main: index.ts
 runtime:
   name: nodejs

@@ -70,4 +70,4 @@ config:
     - swf: http://localhost:4566
     - transfer: http://localhost:4566
     - xray: http://localhost:4566
-encryptionsalt: v1:NqOqHE3h0S4=:v1:WXK8Z3qfuVzmR/jX:fD4yuKCq188eRjpw0V/98WMYI6jxIw==
+encryptionsalt: v1:J0Hcxn9l7t0=:v1:1pBjZnH7aSprtL3K:gfaNVhqRVNC0FyBVqMZeYIuFCy00ng==

@@ -1,0 +1,22 @@
+{
+	"name": "pulumi",
+	"description": "Pulumi, with local backend & AWS classic provider",
+	"scripts": {
+		"init:local": "pulumi stack init local",
+		"init:aws-classic": "pulumi stack init aws-classic",
+		"init:aws-native": "pulumi stack init aws-native",
+
+		"up:local": "pulumi up --stack local --skip-preview --refresh=false",
+		"up:aws-classic": "pulumi up --stack aws-classic --skip-preview --refresh=false",
+		"up:aws-native": "pulumi up --stack aws-native --skip-preview --refresh=false",
+
+		"reset:local": "pulumi destroy --stack local --skip-preview --yes && rm -rf .pulumi",
+		"reset:aws-classic": "pulumi destroy --stack aws-classic --skip-preview --yes && rm -rf .pulumi",
+		"reset:aws-native": "pulumi destroy --stack aws-native --skip-preview --yes && rm -rf .pulumi"
+	},
+	"dependencies": {
+		"@pulumi/pulumi": "3.200.0",
+		"@pulumi/aws": "7.4.0",
+		"@pulumi/aws-native": "1.36.0"
+	}
+}
