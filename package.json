@@ -15,6 +15,6 @@
 	"scripts": {
 		"up": "docker compose up --force-recreate --yes --detach",
 		"down": "docker compose down --volumes --remove-orphans",
-		"benchmark-local": "sh benchmark-local.sh"
+		"benchmark": "sh benchmark.sh"
 	}
 }

@@ -8,6 +8,8 @@
 - [CloudFormation](https://aws.amazon.com/cloudformation/)
 - [Terraform](https://developer.hashicorp.com/terraform)
 - [Pulumi](https://www.pulumi.com/)
+	- AWS Classic Provider
+	- AWS Native (Cloud Control API - not supported by LocalStack)
 - [SST](https://sst.dev/) (version 3)
 - [Serverless Framework](https://www.serverless.com/) (version 4)
 
